@@ -7,10 +7,13 @@ using UnityEngine.UI;
 public class menuOptions : MonoBehaviour {
 
 	public Button bio;
+	public Button comp;
+
 	// Use this for initialization
 	void Start () {
 	
 	bio = bio.GetComponent<Button> ();
+		comp = comp.GetComponent<Button> ();
 		
 	}
 	
@@ -24,9 +27,17 @@ public class menuOptions : MonoBehaviour {
 	{
 		SceneManager.LoadScene ("Biology");
 
-
+	}
+	public void compPress()
+	{
+		comp.enabled = true;
 
 	}
 
+	public void compScene ()
+	{
+		SceneManager.LoadScene ("CompSci");
+
+	}
 
 }

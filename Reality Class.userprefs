@@ -1,8 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/menuOptions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GazeUI For Canvas/ReadMe.txt">
     <Files>
+      <File FileName="Assets/GazeUI For Canvas/ReadMe.txt" Line="1" Column="1" />
       <File FileName="Assets/menuOptions.cs" Line="1" Column="1" />
+      <File FileName="Assets/GazeUI For Canvas/Scripts/UI/EyeRaycaster.cs" Line="1" Column="1" />
+      <File FileName="Assets/backButton.cs" Line="25" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

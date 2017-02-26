@@ -19,3 +19,4 @@
 /Users/ty/Reality Class/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/ty/Reality Class/obj/Debug/Assembly-CSharp.dll
 /Users/ty/Reality Class/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/ty/Reality Class/Temp/bin/Debug/Google.ProtocolBuffers.dll

@@ -49,7 +49,13 @@
      <Compile Include="Assets\GazeUI For Canvas\Scripts\UI\EyeRaycaster.cs" />
      <Compile Include="Assets\backButton.cs" />
      <Compile Include="Assets\menuOptions.cs" />
+     <Compile Include="Assets\menuOptions2.cs" />
+     <Compile Include="Assets\rotate.cs" />
+     <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
      <None Include="Assets\GazeUI For Canvas\ReadMe.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
@@ -67,6 +73,9 @@
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.ProtocolBuffers">
+ <HintPath>/Users/ty/Reality Class/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
